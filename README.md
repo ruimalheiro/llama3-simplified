@@ -13,7 +13,7 @@ This project implements llama3 8B using just torch for educational purposes. The
 ## Instructions
 - Create a python environment, ideally running python 3.10.13. Example with conda: `conda create -n my_env python=3.10.13`;
 - Activate the environment and run: `pip install -r requirements.txt`;
-- The weights are stored in google drive but can be downloaded using the python program **download_weights.py**. Run: `python download_weights.py`;
+- The weights are stored in google drive but can be downloaded using the python program **download_weights.py**. Run: `python download_weights.py`; **Note:** If you get the following error at this step: *"Too many users have viewed or downloaded this file recently..."* Please use the direct link provided in the error message. Once **weights.zip** is downloaded, extract the files **pretrained.pth** and **finetuned.safetensors** to the root directory.
 - Run the notebook **main.ipynb** and experiment.
 
 ## System requirements
