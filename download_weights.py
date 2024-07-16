@@ -2,7 +2,7 @@ import gdown
 import zipfile
 import os
 
-url = 'https://drive.google.com/uc?id=1eVGJV2Ma0Xpf6pIaPjBRoyIb0a7GtPHn'
+url = 'https://drive.google.com/uc?id=13p5hlyZ-axPjF5IfDm895SHVTBVQeVuW'
 output = 'weights.zip'
 
 gdown.download(url, output, quiet=False)
